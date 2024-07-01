@@ -3,6 +3,7 @@ const { JWT_SECRET } = require('./config');
 const { User } = require('./db');
 
 
+
 async function AuthorizedUser(req ,res , next){
 
     const authHeader = req?.headers?.authorization;
